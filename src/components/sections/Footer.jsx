@@ -17,11 +17,14 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* About Column */}
           <div>
-            <h3 className="font-serif text-2xl font-bold text-white mb-4">
-              Little Learners
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/logo.jpg" alt="Scholars Miracles World" className="w-10 h-10 rounded-full object-cover" />
+              <h3 className="font-serif text-2xl font-bold text-white">
+                Scholars Miracles World
+              </h3>
+            </div>
             <p className="text-sm leading-relaxed text-montessori-beige-300 mb-6">
-              A premium Montessori play school dedicated to nurturing young minds 
+              A premium play school dedicated to nurturing young minds 
               through authentic learning experiences.
             </p>
             <div className="flex gap-3">
@@ -143,7 +146,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-montessori-beige-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-montessori-beige-400">
-            <p>© {currentYear} Little Learners Montessori. All rights reserved.</p>
+            <p>© {currentYear} Scholars Miracles World. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-montessori-terracotta-400 transition-colors">
                 Privacy Policy

@@ -7,7 +7,6 @@ import Gallery from './components/sections/Gallery';
 import Events from './components/sections/Events';
 import Testimonials from './components/sections/Testimonials';
 import Trust from './components/sections/Trust';
-import FeePayment from './components/sections/FeePayment';
 import CTA from './components/sections/CTA';
 import Footer from './components/sections/Footer';
 
@@ -23,7 +22,6 @@ function App() {
       <Events />
       <Testimonials />
       <Trust />
-      <FeePayment />
       <CTA />
       <Footer />
     </div>

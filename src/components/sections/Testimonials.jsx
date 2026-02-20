@@ -10,7 +10,7 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Little Learners has been a blessing for our family. The teachers are incredibly caring and our daughter has blossomed in this nurturing environment. She actually looks forward to going to school every day!",
+      text: "Scholars Miracles World has been a blessing for our family. The teachers are incredibly caring and our daughter has blossomed in this nurturing environment. She actually looks forward to going to school every day!",
       parent: "Priya & Rajesh Sharma",
       child: "Parent of Aaradhya (4 years)",
       rating: 5,

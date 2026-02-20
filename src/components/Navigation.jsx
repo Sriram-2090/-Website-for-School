@@ -45,10 +45,11 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <motion.div
-            className="font-serif text-2xl md:text-3xl font-bold text-montessori-terracotta-600"
+            className="flex items-center gap-3"
             whileHover={{ scale: 1.05 }}
           >
-            Little Learners
+            <img src="/logo.jpg" alt="Scholars Miracles World" className="w-12 h-12 rounded-full object-cover" />
+            <span className="font-serif text-xl md:text-2xl font-bold text-montessori-terracotta-600">Scholars Miracles World</span>
           </motion.div>
 
           {/* Desktop Navigation */}
